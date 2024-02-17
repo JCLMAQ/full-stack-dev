@@ -198,7 +198,7 @@ dependencies:
     specifier: ^0.1.4
     version: 0.1.4
   pnpm:
-    specifier: ^8.15.2
+    specifier: ^8.15.3
     version: 8.15.3
   qrcode:
     specifier: ^1.5.3
@@ -10249,6 +10249,7 @@ packages:
 
   /filelist@1.0.4:
     resolution: {integrity: sha512-w1cEuf3S+DrLCQL7ET6kz+gmlJdbq9J7yXCSjK/OZCPA+qEN1WyF4ZAf0YYJa4/shHJra2t/d/r8SV4Ji+x+8Q==}
+    requiresBuild: true
     dependencies:
       minimatch: 5.1.6
 
@@ -11591,6 +11592,7 @@ packages:
     resolution: {integrity: sha512-ZDi3aP+fG/LchyBzUM804VjddnwfSfsdeYkwt8NcbKRvo4rFkjhs456iLFn3k2ZUWvNe4i48WACDbza8fhq2+w==}
     engines: {node: '>=10'}
     hasBin: true
+    requiresBuild: true
     dependencies:
       async: 3.2.5
       chalk: 4.1.2
